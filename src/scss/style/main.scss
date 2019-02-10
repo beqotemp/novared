@@ -1,6 +1,6 @@
 
 body {
-    /* background-image: url(../img/bg-page.png); */
+    background-image: url(../img/bg-page.png);
     background-position-x: center;
     background-repeat: no-repeat;
     background-position-y: top;
@@ -245,7 +245,7 @@ ul.nav-pills {
 
 }
 
-.menu-body-container {
+/* .menu-body-container {
 	padding: 3rem 4.1rem;
 }
 .sidenav {
@@ -366,7 +366,7 @@ ul.nav-pills {
 	    bottom: -21px;
 	    transform: rotate(-450deg);
     }
-}
+} */
 
 /* About us apge */
 .about-us-header {
@@ -426,7 +426,158 @@ ul.nav-pills {
 .about-us-info-button {
 	margin-top: 60px;
 }
-
+/* Journal */
+.journal-card {
+	position: relative;
+	&_shadow {
+		background-color: rgb(28, 28, 28);
+		opacity: 0.431;
+		height: 100%;  
+		position: absolute;
+		width: 100%;
+	}
+	&_link {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 5;	
+	}
+	&_body {
+		padding: 2.6rem 1.7125rem 3.65rem 2.7125rem;
+		position: relative;
+		&__head {			
+			&___reading-time span {
+				color: #fff;
+    			margin-left: 10px;
+    			font-family: $HL;
+    			font-size: 17px;
+			}
+			&___reading-time i {
+    			color: #fff;
+    			font-size: 22px;
+			}
+			&___assessment {
+				color: white;
+				font-size: 22px;
+			}
+		}
+		&__intro {
+			margin-top:344px;
+			&___publish-date {
+				color: #d4d3d3;
+				font-family: $HL;
+				font-size: 17px
+			}
+			&___article-title {
+			    margin-top: 0.85rem;
+				& span {
+					color:#fff;
+					font-family: $SFM;
+					font-size: 30px;
+					line-height: 37px;
+				}
+			}
+		}
+		&__intro-second {
+			margin-top: 171px;
+			
+			&___publish-date {
+				color: #d4d3d3;
+				font-family: $HL;
+				font-size: 17px
+			}
+			&___text {
+				margin-top: 0.5125rem;
+				margin-bottom: -6px;
+			}
+			&___text p {
+				font-family: $HL;
+				font-size: 17px;
+				color: #5e5c5d;
+				padding-right: 0.5rem;
+    			letter-spacing: 0.2px;
+    			line-height: 24px;
+			}
+			&___article-title {
+			    margin-top: 1.25rem;
+				& span {
+					color:#fff;
+					font-family: $SFM;
+					font-size: 30px;
+					line-height: 37px;
+				}
+			}
+		}
+	}
+}
+.journal-card-st {
+	position: relative;	
+	&_link {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 5;	
+	}
+	&_body {
+		padding: 0rem;
+		position: relative;
+		&__picture {
+			position: relative;
+			min-height: 300px;
+			background-image: url(../img/nova-journal/journal-article-bg-t.png);
+			width:100%;
+			&_shadow {
+			background-color: rgb(28, 28, 28);
+			opacity: 0.431;
+			height: 100%;  
+			position: absolute;
+			width: 100%;
+			}
+		}
+		&__head {
+		position: absolute;
+		top: 30px;
+		right: 1.7125rem;			
+			&___assessment {
+				color: #fff;
+				font-size: 22px;
+				z-index: 2;
+			}
+		}
+		&__intro {
+			margin-top:27px;
+			&___article-title {
+				padding: 0rem 0rem 0rem 0.4rem;
+			    margin-top: 0.55rem;
+				& span {
+					color:#231f20;
+					font-family: $SFM;
+					font-size: 30px;
+					line-height: 37px;
+				}
+			}	
+			&___info-bar {
+				&____publish-date {
+					color: #727171;
+					font-family: $HL;
+					font-size: 17px;
+				}
+				&____reading-time { 
+					& i {
+	    				color: #7e7b7c;
+    					font-size: 22px;
+    				}
+					& span {
+						color: #7e7b7c;
+						font-family: $HL;
+						font-size: 17px;
+						margin-left: 5px;
+					}
+				}
+			}
+		}
+	}
+}
 /* footer */
 .footer {
 	background: #252525;
