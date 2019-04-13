@@ -1,6 +1,7 @@
 import $ from "jquery";
+import "./scripts/menu.js";
 import popper from "popper.js";
 import bootstrap from "bootstrap";
-import tooltip from "./scripts/tooltip.js";
+
 
 

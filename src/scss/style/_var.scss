@@ -3,16 +3,11 @@
 $break-small: 320px;
 $break-large: 1200px;
 /* Colors */
-$red: #f21f0f;
-$text: #787677;
+
 /* Fonts */
 $fall-back-font: 'Ubuntu', Arial, sans-serif;
-$SFS: 'SF UI Display Semibold',$fall-back-font;
-$SFM: 'SF UI Display Medium',$fall-back-font;
-$SFR: 'SF UI Display Regular',$fall-back-font;
-$SFL: 'SF UI Display Light',$fall-back-font;
-$SFT: 'SF UI Display Thin',$fall-back-font;
-$HL: 'HelveticaNeueCyr Light',$fall-back-font;
-$HR:'HelveticaNeueCyr Roman',$fall-back-font;
-
+$sfcR: 'Fira Sans Condensed Regular', $fall-back-font;
+$sfcM: 'Fira Sans Condensed Medium', $fall-back-font; /* using */
+$sfecM: 'Fira Sans Extra Condensed Medium', $fall-back-font;
+$osR: 'OpenSans-Regular', $fall-back-font;
 
